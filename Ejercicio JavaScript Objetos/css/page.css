@@ -1,0 +1,94 @@
+body{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:32px;
+  background-image: url(../img/83-838034_java-wallpaper-java-wallpaper-hd.jpg);
+background-position: center;
+background-size: cover;
+}
+.contenedor{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+
+}
+.operaciones{
+  display:flex;
+  align-items:center;
+  flex-direction:row;
+  gap: 5px;
+}
+
+h1{
+  color:rgb(0, 0, 0);
+  font-size:50px;
+  font-family:'hola';
+
+}
+@font-face {
+  font-family:'hola';
+  src: url(../font/ka2.ttf);}
+.grupo{ 
+
+  display:flex;
+  justify-content:flex-start;
+  gap:20px;
+  height:30px;
+  margin-bottom: 35px;
+}
+.grupo label, button{
+  width: 400px;
+  font-size: 25px;
+  height: 300px;
+  border-radius:10px;
+  margin:4px;
+  color:rgb(0, 0, 0);
+  height:45px;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+  display: inline-block;
+  color: #03e9f4;
+  background: #bf47eb;
+  color: #000000;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #7605ff,
+              0 0 10px #5b18ac,
+              0 0 200px #371797,
+              0 0 20px #4400ff;               
+}
+
+.grupo button{
+ border-radius:10px;
+  margin:2px;
+  color:white;
+ 
+  height:45px;
+  background-image: linear-gradient(to right top, #051937, #ce2626, #d13030, #d7c135, #7c0808);
+  cursor: pointer;
+  transition: .5s ease-in-out;  
+}
+.grupo input{
+display:block;
+border-radius: 7px;
+font-size:25px;
+padding: 25px;
+}
+#iva{
+ display:block;
+ margin-left: -330px;
+ width:40px 
+} 
+textarea{
+  margin-top:20px;
+  width:100%;
+  border-radius: 15px;
+  padding: 10px;
+  font-size:30px;
+  color:#1d2742;
+  font-weight:bold;
+}
+
+.ej1{
+  display: flex;
+  align-items: center; 
+}
